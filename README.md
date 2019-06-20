@@ -1,6 +1,15 @@
-# LinearAdvanceSettingPlugin
+# LinearPrimingSpeedPlugin
 
-This plugin adds a setting named "Linear Advance Factor" to the Material category in the Custom print setup of Cura.
+This plugin adds a setting named "Priming SPeed" to the Material category in the Custom print setup of Cura.
+
+
+This is based on Linear Advance Settings by Field of View. 
+
+Until there's a release, the plugins is completely or not even yet under development. 
+
+---
+
+Original readme: 
 
 If the start gcode doesn't include an M900 statement to set the linear advance parameters, a single G-code line is added before the start G-code:
 ```
